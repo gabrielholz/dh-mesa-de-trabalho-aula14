@@ -10,10 +10,12 @@
 html {
   position: relative;
   min-height: 100%;
+  font-size: 16px;
 }
 
-body{
-  margin: 0 0 160px; /* altura do seu footer */
+body {
+  margin: 0 0 160px;
+  /* altura do seu footer */
 }
 
 .area__desconto {
@@ -27,11 +29,10 @@ body{
 
 .area__desconto span {
   padding-left: 20px;
-
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 1rem;
 
   color: #333333;
 }
@@ -81,13 +82,15 @@ body{
 .card__img__top {
   width: 100%;
 }
-.button__like__img{
+
+.button__like__img {
   position: absolute;
   top: 2%;
   left: 2%;
   height: 30px;
   height: 30px;
 }
+
 .card__icon {
   width: 100%;
   display: flex;
@@ -155,6 +158,25 @@ footer {
   padding: 5px;
 }
 
-@media (max-width: 480px){
-    
+@media (max-width: 460px) {
+
+  /*mobile*/
+  .cards__card {
+    width: 60%;
+  }
+  .cards{
+    gap: 10px;
+  }
+}
+
+@media (min-width: 461px) {
+  /*tablet*/
+  .cards{
+    gap: 10px;
+  }
+
+  .cards__card {
+    width: 45%;
+  }
+
 }
