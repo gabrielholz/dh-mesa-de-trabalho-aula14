@@ -40,10 +40,16 @@ html, body {
 }
   
 .cabecalho__logo {
-    padding: 150px;
+    display: flex;
+    align-items: center
     
 }
-  
+ 
+.cabecalho img {
+    width: 30%;
+    height: 90%
+}
+
 .cabecalho h1 {
     font-family: 'Roboto';
     font-style: normal;
@@ -53,11 +59,6 @@ html, body {
     
 }
 
-header {
-    background-image: url(../img/Group.png);
-    background-repeat: no-repeat;
-    
-}
 
 footer {
     background-color: #00669F;
