@@ -261,10 +261,10 @@ footer span {
   align-items: center;
   background-color: #fff;
   width: 40%;
-  height: 50%;
-  border-radius: 20px;
-  padding: 0 15px
+  height: 55%;
+
   
+  border-radius: 20px;
 }
 
 
@@ -280,8 +280,30 @@ footer span {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  padding: 0 15px
 }
 
 .card__detalhes__descricao h2 {
-  margin-top: -5%;
+  margin-top: -10%;
+}
+
+.card__detalhes__icones{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.card__detalhes__icones img{
+  width: 80%;
+  height: 100%;
+}
+.card__detalhes__btn__back{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20%;
+  width: 100%;
+  margin-top: 2%;
+  background-color: #2C0187;
+  border-radius: 0 0 20px 20px;
 }
