@@ -12,6 +12,19 @@ html, body {
     height: 100%;
 }
 
+main {
+    width: 100%;
+    height: 90%;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+header, main, footer {
+    flex-shrink: 0;
+}
+
 .area__nomes {
     width: 100%;
     height: 4%;
@@ -87,4 +100,32 @@ footer span {
     top: 5.32%;
     bottom: 0%;
 }
+
+.formulario {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    gap: 15px;
+    text-align: center;
+    color: #333333;
+
+}
+
+.formulario form {
+    width: 60%;
+}
+
+.formulario form div input{
+    width: 100%;
+    height: 50px;
+
+}
+
 
