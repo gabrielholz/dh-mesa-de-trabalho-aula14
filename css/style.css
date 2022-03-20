@@ -196,31 +196,6 @@ footer span {
   color: #fff;
 }
 
-@media (max-width: 460px) {
-
-  /*mobile*/
-  .cards__card {
-    width: 60%;
-  }
-
-  .cards {
-    gap: 10px;
-  }
-}
-
-@media (min-width: 461px) and (max-width:768px) {
-
-  /*tablet*/
-  .cards {
-    gap: 10px;
-  }
-
-  .cards__card {
-    width: 45%;
-
-  }
-
-}
 
 /* page detail */
 
@@ -258,6 +233,7 @@ footer span {
 .card__detalhes {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   align-items: center;
   background-color: #fff;
   width: 40%;
@@ -298,6 +274,7 @@ footer span {
   height: 100%;
 }
 .card__detalhes__btn__back{
+  bottom: 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -306,4 +283,41 @@ footer span {
   margin-top: 2%;
   background-color: #2C0187;
   border-radius: 0 0 20px 20px;
+}
+
+@media (max-width: 460px) {
+
+  /*mobile*/
+  .cards__card {
+    width: 60%;
+  }
+
+  .cards {
+    gap: 10px;
+  }
+  .card__detalhes {
+    width: 95%;
+  }
+
+  .area__nomes{
+    height: 9%;
+  }
+}
+
+@media (min-width: 461px) and (max-width:768px) {
+
+  /*tablet*/
+  .cards {
+    gap: 10px;
+  }
+
+  .cards__card {
+    width: 45%;
+
+  }
+
+  .card__detalhes {
+    width: 80%;
+  }
+
 }
