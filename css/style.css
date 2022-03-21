@@ -355,6 +355,68 @@ footer span {
 }
 
 
+/* register */
+
+.main__register {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.formulario__register{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  font-size: 40px;
+  gap: 15px;
+  color: #333333;
+}
+
+.formulario__register form{
+  height: 50%;
+  width: 60%;
+
+  
+}
+
+.formulario__register form input, select{
+  width: 100%;
+  height: 50px;
+  padding: 5px;
+}
+
+
+
+
+
+.formulario__register__buttons{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.formulario__register__buttons div{
+  width: 45%;
+
+}
+
+.formulario__register__buttons div input {
+    border-radius: 10px;
+    border: 0;
+    font-weight: bold;
+}
+
+.formulario__register__buttons__limpar{
+  background-color: #888888;
+  color: #fff;
+}
+.formulario__register__buttons__entrar{
+  background-color: #1CD1B0;
+  color: #000;  
+}
 
 
 @media (max-width: 460px) {

@@ -12,13 +12,20 @@ html, body {
     height: 100%;
 }
 
-main {
+.main__login {
     width: 100%;
     height: 90%;
     flex-grow: 1;
     display: flex;
     justify-content: center;
     flex-direction: column;
+    align-items: center;
+}
+
+.main__login h1{
+    font-weight: bold;
+    font-size: 40px;
+
 }
 
 header, main, footer {
@@ -101,31 +108,43 @@ footer span {
     bottom: 0%;
 }
 
+.main__login{
+    display: flex;
+    justify-content: center;
+
+} 
+
 .formulario {
-    width: 100%;
+    width: 80%;
     height: 100%;
     display: flex;
     justify-content: center;
     flex-direction: column;
-    align-items: center;
-    font-family: "Inter";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 40px;
     gap: 15px;
-    text-align: center;
     color: #333333;
 
 }
 
 .formulario form {
-    width: 60%;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 50%;
+    gap: 10px
 }
 
 .formulario form div input{
     width: 100%;
     height: 50px;
+    padding: 5px;
 
 }
 
-
+.login__button{
+    background-color: #1CD1B0;
+    font-weight: bold;
+    font-size: 15px;
+    color: #000;
+    border: 0;
+    border-radius: 25px;
+}
